@@ -1,0 +1,4 @@
+The next transform formats each of the key/value pairs of unique words and occurrence counts into a printable string suitable for writing to an output file.
+The map transform is a higher-level composite transform that encapsulates a simple ParDo.
+For each element in the input PCollection, the map transform applies a function that produces exactly one output element.
+Note that the Write transform produces a trivial result value of type PDone, which in this case is ignored.
